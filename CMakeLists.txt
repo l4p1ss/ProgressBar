@@ -13,7 +13,7 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt5Widgets REQUIRED)
 
 
-set(SOURCE_FILES main.cpp Subject.h Observer.h MainWindow.cpp MainWindow.h File.cpp File.h)
+set(SOURCE_FILES main.cpp Subject.h Observer.h MainWindow.cpp MainWindow.h File.cpp File.h ConcreteObserver.h ResourcesLoader.h ResourcesLoader.cpp)
 
 add_executable(ProgressBar main.cpp)
 add_library(core ${SOURCE_FILES})

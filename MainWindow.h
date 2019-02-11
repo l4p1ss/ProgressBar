@@ -17,7 +17,7 @@
 #include "Observer.h"
 
 
-class MainWindow : public QMainwindow, public Observer {
+class MainWindow : public QMainWindow, public Observer {
     Q_OBJECT
 public:
     MainWindow (ResourcesLoader * loader);
@@ -45,6 +45,5 @@ private:
 };
 
 
-};
 
 #endif //PROGRESSBAR_MAINWINDOW_H

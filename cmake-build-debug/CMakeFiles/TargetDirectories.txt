@@ -1,0 +1,6 @@
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/CMakeFiles/core.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/CMakeFiles/ProgressBar.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/CMakeFiles/core_autogen.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/CMakeFiles/ProgressBar_autogen.dir

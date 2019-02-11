@@ -12,7 +12,7 @@ class File {
 public:
     explicit File(const std::string filename);
     ~File();
-    int getFileSizeInBites() {
+    int getFileSizeInBytes() {
         return fileSize;
     }
 
