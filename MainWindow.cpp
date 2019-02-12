@@ -16,7 +16,7 @@ MainWindow::MainWindow(ResourcesLoader * concreteLoader) {
     //imposta il testo di info
     text = new QLabel("Classe che carica file di risorse e aggiorna una progress bar (con QT).", this);
     text->setGeometry(QRect(QPoint(150, 15), QSize(300, 100)));
-    text->setStyleSheet("QLabel { background-color : blue; color : white; }");
+    text->setStyleSheet("QLabel { background-color : white; color : black; }");
     text->setWordWrap(true);
     text->setAlignment(Qt::AlignCenter);
 
