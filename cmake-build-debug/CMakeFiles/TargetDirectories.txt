@@ -4,3 +4,10 @@
 /Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/CMakeFiles/ProgressBar.dir
 /Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/CMakeFiles/core_autogen.dir
 /Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/CMakeFiles/ProgressBar_autogen.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/test/CMakeFiles/runAllTests.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/test/lib/googletest/CMakeFiles/rebuild_cache.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/test/lib/googletest/CMakeFiles/edit_cache.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_main.dir
+/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir

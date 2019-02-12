@@ -55,10 +55,10 @@ void MainWindow::startLoadingResources() {
     std::vector<std::string> files;
     files.push_back("File1.txt");
     files.push_back("File2.txt");
-    files.push_back("gatto.jpg");
-    files.push_back("cane.jpg");
+    files.push_back("pizza.jpg");
+    files.push_back("book.jpg");
     files.push_back("florence.jpg");
-    files.push_back("sunset.jpg");
+    files.push_back("iPhone.jpg");
 
     loader->loadFiles(files);
 }

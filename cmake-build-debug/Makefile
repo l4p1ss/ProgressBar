@@ -162,6 +162,45 @@ ProgressBar_autogen/fast:
 	$(MAKE) -f CMakeFiles/ProgressBar_autogen.dir/build.make CMakeFiles/ProgressBar_autogen.dir/build
 .PHONY : ProgressBar_autogen/fast
 
+#=============================================================================
+# Target rules for targets named runAllTests
+
+# Build rule for target.
+runAllTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runAllTests
+.PHONY : runAllTests
+
+# fast build rule for target.
+runAllTests/fast:
+	$(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/build
+.PHONY : runAllTests/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f test/lib/googletest/CMakeFiles/gtest_main.dir/build.make test/lib/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f test/lib/googletest/CMakeFiles/gtest.dir/build.make test/lib/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
 File.o: File.cpp.o
 
 .PHONY : File.o
@@ -339,6 +378,9 @@ help:
 	@echo "... ProgressBar"
 	@echo "... core_autogen"
 	@echo "... ProgressBar_autogen"
+	@echo "... runAllTests"
+	@echo "... gtest_main"
+	@echo "... gtest"
 	@echo "... File.o"
 	@echo "... File.i"
 	@echo "... File.s"

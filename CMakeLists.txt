@@ -8,10 +8,9 @@ set (CMAKE_PREFIX_PATH "/Users/lorenzopesci/Qt/5.12.1/clang_64/lib/cmake/Qt5Widg
 
 set(CMAKE_AUTOMOC ON)
 
-#add_subdirectory(test)
+add_subdirectory(test)
 
 find_package(Qt5Widgets REQUIRED)
-
 
 set(SOURCE_FILES main.cpp Subject.h Observer.h MainWindow.cpp MainWindow.h File.cpp File.h ConcreteObserver.h ResourcesLoader.h ResourcesLoader.cpp)
 
