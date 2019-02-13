@@ -50,8 +50,6 @@ string
 Observer.h
 /Users/lorenzopesci/CLionProjects/ProgressBar/Observer.h
 
-/Users/lorenzopesci/CLionProjects/ProgressBar/cmake-build-debug/ProgressBar_autogen/mocs_compilation.cpp
-
 /Users/lorenzopesci/CLionProjects/ProgressBar/main.cpp
 QApplication
 -

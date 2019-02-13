@@ -5,8 +5,6 @@
 #ifndef PROGRESSBAR_RESOURCESLOADER_H
 #define PROGRESSBAR_RESOURCESLOADER_H
 
-//classe che gestice il caricamento delle risorse
-
 #include <list>
 #include <QTextEdit>
 #include "File.h"
@@ -14,11 +12,12 @@
 #include "Subject.h"
 #include <string>
 
-class ResourcesLoader : public Subject {
+class ResourcesLoader : public Subject {  //classe che gestice il caricamento delle risorse
+
 public:
     ResourcesLoader();
-    void loadFiles(std::vector<std::string> fileNames) throw(std::runtime_error);
-    void handleFile(const std::string itr);
+    void loadFiles(std::vector<std::string> fileNames) throw(std::runtime_error); //carica file
+    void handleFile(const std::string itr); //gestisce file
 
     virtual void registerObserver (Observer *o) override;
     virtual void removeObserver (Observer * o) override;

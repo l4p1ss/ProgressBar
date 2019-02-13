@@ -22,7 +22,7 @@ void ResourcesLoader::notifyObserver() const {
     }
 }
 
-void ResourcesLoader::loadFiles(std::vector<std::string> fileNames) throw(std::runtime_error) {
+void ResourcesLoader::loadFiles(std::vector<std::string> fileNames) throw(std::runtime_error) { //avviene il caricamento dei file
     try {
         numOfResources = int(fileNames.size());
         if (numOfResources == 0) {
@@ -37,7 +37,7 @@ void ResourcesLoader::loadFiles(std::vector<std::string> fileNames) throw(std::r
     }
 }
 
-void ResourcesLoader::handleFile(const std::string itr) {
+void ResourcesLoader::handleFile(const std::string itr) {  //avviene la gestione dei file
     try {
         File file(itr);
         fileName = QString(itr.c_str());

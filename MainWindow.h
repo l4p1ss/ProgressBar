@@ -17,7 +17,7 @@
 #include "Observer.h"
 
 
-class MainWindow : public QMainWindow, public Observer {
+class MainWindow : public QMainWindow, public Observer { //classe che gestisce tutta la parte grafica
     Q_OBJECT
 public:
     MainWindow (ResourcesLoader * loader);

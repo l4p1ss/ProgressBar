@@ -5,7 +5,7 @@
 #include "MainWindow.h"
 #include <string>
 
-MainWindow::MainWindow(ResourcesLoader * concreteLoader) {
+MainWindow::MainWindow(ResourcesLoader * concreteLoader) {  //creazione parte grafica
     //imposta una dimensione fissa alla finestra
     this->setFixedSize(QSize(600, 400));
 
@@ -14,7 +14,7 @@ MainWindow::MainWindow(ResourcesLoader * concreteLoader) {
     this->setFixedSize(QSize(600, 400));
 
     //imposta il testo di info
-    text = new QLabel("Classe che carica file di risorse e aggiorna una progress bar (con QT).", this);
+    text = new QLabel("Classe che carica file di risorse e aggiorna una progress bar con QT.", this);
     text->setGeometry(QRect(QPoint(150, 15), QSize(300, 100)));
     text->setStyleSheet("QLabel { background-color : white; color : black; }");
     text->setWordWrap(true);
@@ -49,7 +49,7 @@ MainWindow::MainWindow(ResourcesLoader * concreteLoader) {
     connect(button, SIGNAL (released()), this, SLOT (startLoadingResources()));
 }
 
-void MainWindow::startLoadingResources() {
+void MainWindow::startLoadingResources() {  //viene creato un vettore di file generici
     progressBar->setValue(0);
     textBox->setText("");
     std::vector<std::string> files;

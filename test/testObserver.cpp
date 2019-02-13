@@ -6,7 +6,7 @@
 #include "../ResourcesLoader.h"
 #include "../ConcreteObserver.h"
 
-TEST(testObserver, testFileName) {
+TEST(testObserver, testFileName) { //test sul nome del file
     ResourcesLoader loader;
     ConcreteObserver observer(&loader);
     std::vector<std::string> vector;
@@ -15,7 +15,7 @@ TEST(testObserver, testFileName) {
     ASSERT_EQ(observer.resources->getFilename(), "florence.jpg");
 }
 
-TEST(testObserver, testFileSize) {
+TEST(testObserver, testFileSize) { //test sulla dimensione del file
     ResourcesLoader loader;
     ConcreteObserver observer(&loader);
     std::vector<std::string> vector;
@@ -24,7 +24,7 @@ TEST(testObserver, testFileSize) {
     ASSERT_EQ(observer.resources->getFileSize(), 112078);
 }
 
-TEST(testObserver, testLoaded) {
+TEST(testObserver, testLoaded) { //test su file caricato
     ResourcesLoader loader;
     ConcreteObserver observer(&loader);
     std::vector<std::string> vector;
@@ -33,7 +33,7 @@ TEST(testObserver, testLoaded) {
     ASSERT_TRUE(observer.resources->isLoadingCompleted());
 }
 
-TEST(testObserver, testNoLoaded) {
+TEST(testObserver, testNoLoaded) { //test su file non caricato
     ResourcesLoader loader;
     ConcreteObserver observer(&loader);
     std::vector<std::string> vector;

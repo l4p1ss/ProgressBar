@@ -8,7 +8,7 @@
 #include <string>
 #include <iostream>
 
-class File {
+class File {  //classe che crea il file
 public:
     explicit File(const std::string filename);
     ~File();
