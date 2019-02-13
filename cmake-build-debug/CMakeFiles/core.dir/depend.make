@@ -28,6 +28,10 @@ CMakeFiles/core.dir/ResourcesLoader.cpp.o: ../Observer.h
 CMakeFiles/core.dir/ResourcesLoader.cpp.o: ../ResourcesLoader.cpp
 CMakeFiles/core.dir/ResourcesLoader.cpp.o: ../ResourcesLoader.h
 CMakeFiles/core.dir/ResourcesLoader.cpp.o: ../Subject.h
+CMakeFiles/core.dir/ResourcesLoader.cpp.o: /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtCore.framework/Headers/QCoreApplication
+CMakeFiles/core.dir/ResourcesLoader.cpp.o: /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtCore.framework/Headers/QTime
+CMakeFiles/core.dir/ResourcesLoader.cpp.o: /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtCore.framework/Headers/qcoreapplication.h
+CMakeFiles/core.dir/ResourcesLoader.cpp.o: /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtCore.framework/Headers/qdatetime.h
 CMakeFiles/core.dir/ResourcesLoader.cpp.o: /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtWidgets.framework/Headers/QTextEdit
 CMakeFiles/core.dir/ResourcesLoader.cpp.o: /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtWidgets.framework/Headers/qtextedit.h
 

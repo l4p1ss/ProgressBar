@@ -41,3 +41,11 @@ TEST(testObserver, testNoLoaded) { //test su file non caricato
     loader.loadFiles(vector);
     ASSERT_FALSE(observer.resources->isLoadingCompleted());
 }
+
+TEST(testObserver, testException) { //test su lancio eccezione
+    ResourcesLoader loader;
+    ConcreteObserver observer(&loader);
+    std::vector<std::string> vector;
+    vector.push_back("pizza.jpg");
+    ASSERT_NO_THROW(loader.loadFiles(vector));
+}

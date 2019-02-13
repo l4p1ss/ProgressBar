@@ -29,6 +29,10 @@ CMakeFiles/core.dir/ResourcesLoader.cpp.o
  /Users/lorenzopesci/CLionProjects/ProgressBar/ResourcesLoader.cpp
  /Users/lorenzopesci/CLionProjects/ProgressBar/ResourcesLoader.h
  /Users/lorenzopesci/CLionProjects/ProgressBar/Subject.h
+ /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtCore.framework/Headers/QCoreApplication
+ /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtCore.framework/Headers/QTime
+ /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtCore.framework/Headers/qcoreapplication.h
+ /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtCore.framework/Headers/qdatetime.h
  /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtWidgets.framework/Headers/QTextEdit
  /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtWidgets.framework/Headers/qtextedit.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o

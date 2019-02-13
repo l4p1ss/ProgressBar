@@ -3,6 +3,8 @@
 //
 
 #include "ResourcesLoader.h"
+#include <QTime>
+#include <QCoreApplication>
 
 ResourcesLoader::ResourcesLoader() {
     numOfResources = 0;
@@ -22,18 +24,21 @@ void ResourcesLoader::notifyObserver() const {
     }
 }
 
-void ResourcesLoader::loadFiles(std::vector<std::string> fileNames) throw(std::runtime_error) { //avviene il caricamento dei file
-    try {
-        numOfResources = int(fileNames.size());
-        if (numOfResources == 0) {
-            throw std::runtime_error("No resouces detected!");
-        }
-    } catch(std::runtime_error& e) {
-        std::cerr << e.what() << std::endl;
+void delay(int millisecondsToWait) {
+    QTime dieTime = QTime::currentTime().addMSecs(millisecondsToWait);
+    while(QTime::currentTime() < dieTime) {
+        QCoreApplication::processEvents(QEventLoop::AllEvents, 100);
     }
+}
 
-    for (auto& itr : fileNames) {
-        handleFile(itr);
+void ResourcesLoader::loadFiles(std::vector<std::string> fileNames) throw(std::runtime_error) { //avviene il caricamento dei file
+    numOfResources = int(fileNames.size());
+    if (numOfResources == 0) {
+        printf("No resouces detected!");
+    } else {
+        for (auto &itr : fileNames) {
+            handleFile(itr);
+        }
     }
 }
 
@@ -44,7 +49,7 @@ void ResourcesLoader::handleFile(const std::string itr) {  //avviene la gestione
         fileSize = file.getFileSizeInBytes();
         loadingCompleted = true;
         notifyObserver();
-        // TODO aggiungere sleep per simulare vera lettura
+        delay(1000);
     } catch (std::runtime_error &e) {
         std::cerr << e.what() << std::endl;
         fileName = QString(itr.c_str());

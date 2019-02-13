@@ -334,12 +334,6 @@ string
 Observer.h
 /Users/lorenzopesci/CLionProjects/ProgressBar/Observer.h
 
-/Users/lorenzopesci/CLionProjects/ProgressBar/test/testFile.cpp
-../File.h
-/Users/lorenzopesci/CLionProjects/ProgressBar/File.h
-gtest/gtest.h
-/Users/lorenzopesci/CLionProjects/ProgressBar/test/gtest/gtest.h
-
 /Users/lorenzopesci/CLionProjects/ProgressBar/test/testObserver.cpp
 gtest/gtest.h
 /Users/lorenzopesci/CLionProjects/ProgressBar/test/gtest/gtest.h
@@ -347,12 +341,6 @@ gtest/gtest.h
 /Users/lorenzopesci/CLionProjects/ProgressBar/ResourcesLoader.h
 ../ConcreteObserver.h
 /Users/lorenzopesci/CLionProjects/ProgressBar/ConcreteObserver.h
-
-/Users/lorenzopesci/CLionProjects/ProgressBar/test/testResourceLoader.cpp
-../ResourcesLoader.h
-/Users/lorenzopesci/CLionProjects/ProgressBar/ResourcesLoader.h
-gtest/gtest.h
-/Users/lorenzopesci/CLionProjects/ProgressBar/test/gtest/gtest.h
 
 /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtWidgets.framework/Headers/QTextEdit
 qtextedit.h

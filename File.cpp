@@ -15,6 +15,6 @@ File::File(const std::string filename) : file(fopen(filename.c_str(), "r")), fil
 
 File::~File() {  //distruttore di file; fclose chiude il file
     if (fclose(file)){
-        throw std::runtime_error("Could not close file!");
+        printf("Could not close file!");
     }
 }
