@@ -302,12 +302,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/lorenzopesci/CLionProjects/ProgressBar/ConcreteObserver.h
-Observer.h
-/Users/lorenzopesci/CLionProjects/ProgressBar/Observer.h
-ResourcesLoader.h
-/Users/lorenzopesci/CLionProjects/ProgressBar/ResourcesLoader.h
-
 /Users/lorenzopesci/CLionProjects/ProgressBar/File.h
 string
 -
@@ -334,13 +328,11 @@ string
 Observer.h
 /Users/lorenzopesci/CLionProjects/ProgressBar/Observer.h
 
-/Users/lorenzopesci/CLionProjects/ProgressBar/test/testObserver.cpp
-gtest/gtest.h
-/Users/lorenzopesci/CLionProjects/ProgressBar/test/gtest/gtest.h
+/Users/lorenzopesci/CLionProjects/ProgressBar/test/testResourceLoader.cpp
 ../ResourcesLoader.h
 /Users/lorenzopesci/CLionProjects/ProgressBar/ResourcesLoader.h
-../ConcreteObserver.h
-/Users/lorenzopesci/CLionProjects/ProgressBar/ConcreteObserver.h
+gtest/gtest.h
+/Users/lorenzopesci/CLionProjects/ProgressBar/test/gtest/gtest.h
 
 /Users/lorenzopesci/Qt/5.12.1/clang_64/lib/QtWidgets.framework/Headers/QTextEdit
 qtextedit.h

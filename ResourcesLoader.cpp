@@ -34,7 +34,7 @@ void delay(int millisecondsToWait) {
 void ResourcesLoader::loadFiles(std::vector<std::string> fileNames) throw(std::runtime_error) { //avviene il caricamento dei file
     numOfResources = int(fileNames.size());
     if (numOfResources == 0) {
-        printf("No resouces detected!");
+        throw std::runtime_error("No resouces detected!");
     } else {
         for (auto &itr : fileNames) {
             handleFile(itr);

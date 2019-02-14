@@ -60,7 +60,11 @@ void MainWindow::startLoadingResources() {  //viene creato un vettore di file ge
     files.push_back("florence.jpg");
     files.push_back("iPhone.jpg");
 
-    loader->loadFiles(files);
+    try {
+        loader->loadFiles(files);
+    } catch (std::runtime_error &e) {
+        std::cerr << e.what() << std::endl;
+    }
 }
 
 void MainWindow::update() {
